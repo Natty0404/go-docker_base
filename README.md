@@ -10,6 +10,7 @@ Go+gin+dockerでのapi-demoです。
 make init
 ```
 
+## 接続確認
 ```shell
 curl http://localhost:8080/hello
 ```
