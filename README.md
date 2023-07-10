@@ -1,8 +1,9 @@
-# go-api-demo
+# go-demo
 
 ## 概要
 
-Go+gin+dockerでのapi-demoです。
+Go+dockerのベース
+- Goではginを使用
 
 ## 開発環境構築
 
