@@ -1,12 +1,12 @@
 version: '3.8'
 services:
-  go-api-demo:
-    container_name: go-api-demo
+  go-demo:
+    container_name: go-demo
     build:
-      context: .
+      context: ./src
       dockerfile: Dockerfile
     tty: true
     ports: 
       - '8080:8080'
     volumes:
-      - ./src:/go/src/go_api_demo_service
+      - ./src:/go/src/go_demo_service
